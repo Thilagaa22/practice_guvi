@@ -1,4 +1,4 @@
-class Multiples:
+class Multipletable:
     def __init__(self):
         self.n=int(input())
     def findmul(self):
@@ -11,5 +11,5 @@ class Multiples:
             else:
                 print(lst[i],end=" ")
 
-m=Multiples()
+m=Multipletable()
 m.findmul()
