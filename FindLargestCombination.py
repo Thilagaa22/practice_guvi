@@ -1,9 +1,9 @@
-class LargestNumComb:
+class LargestNumc:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
 
-    def FindComb(self):
+    def Findc(self):
         narr=self.narr.split(" ")
         narr=[int(i) for i in narr]
         narr.sort()
@@ -13,5 +13,5 @@ class LargestNumComb:
         narr=int(narr)
         print(narr)
 
-ln=LargestNumComb()
-ln.FindComb()
+ln=LargestNumc()
+ln.Findc()
