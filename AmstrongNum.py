@@ -1,7 +1,7 @@
-class amstrongnum:
+class amstrongn:
     def __init__(self):
         self.numchar=input()
-    def findamstrong(self):
+    def findams(self):
         countnum=0
         sumn=0
         num=int(self.numchar)
@@ -20,5 +20,5 @@ class amstrongnum:
             print("no")
             
 
-cd=amstrongnum()
-cd.findamstrong()
+cd=amstrongn()
+cd.findams()
