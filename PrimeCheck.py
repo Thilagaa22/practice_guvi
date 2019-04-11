@@ -1,7 +1,7 @@
-class PrimeNum:
+class PrimeNumb:
     def __init__(self):
         self.n=int(input())
-    def findprime(self):
+    def findprimeno(self):
         flag=0
         if(self.n <=1):
             print("no")
@@ -14,5 +14,5 @@ class PrimeNum:
             else:
                 print("no")
 
-p=PrimeNum()
-p.findprime()
+p=PrimeNumb()
+p.findprimeno()
