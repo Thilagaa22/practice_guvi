@@ -1,10 +1,10 @@
-class StrRev:
+class strRev:
     def __init__(self):
         self.n=input()
 
-    def Rev(self):
+    def Reve(self):
         self.n=self.n[::-1]
         print(self.n)
 
-s=StrRev()
-s.Rev()
+s=strRev()
+s.Reve()
