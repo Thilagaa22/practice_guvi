@@ -1,4 +1,4 @@
-class MinNum:
+class Minnum:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
@@ -8,6 +8,6 @@ class MinNum:
         (self.narr).sort()
         print((self.narr)[0])
 
-m=MinNum()
+m=Minnum()
 m.FindMin()
 
