@@ -1,8 +1,8 @@
-class CamelCase:
+class camelcase:
     def __init__(self):
         self.sen=input()
 
-    def Casing(self):
+    def casing(self):
         inp_list=self.sen.split(" ")
         for i in range(len(inp_list)):
             inp_list[i]=list(inp_list[i])
@@ -16,5 +16,5 @@ class CamelCase:
         self.sen=" ".join(inp_list)
         print(self.sen)
 
-c=CamelCase()
-c.Casing()
+c=camelcase()
+c.casing()
