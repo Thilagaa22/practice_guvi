@@ -1,12 +1,12 @@
-class Alpha:
+class Alph:
     def __init__(self):
         self.alphabets="abcdefghijklmnopqrstuvwxyz"
         self.inp=input()
-    def checkalpha(self):
+    def checkalph(self):
         if(self.inp in self.alphabets):
             print("Alphabet")
         else:
             print("No")
 
-a1= Alpha()
-a1.checkalpha()
+a1= Alph()
+a1.checkalph()
