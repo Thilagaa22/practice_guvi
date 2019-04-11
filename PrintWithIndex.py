@@ -1,4 +1,4 @@
-class PrintWithIndex:
+class PrintWithRange:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
@@ -13,5 +13,5 @@ class PrintWithIndex:
                 print(self.narr[i],end=" ")
                 print(i)
 
-pwi=PrintWithIndex()
+pwi=PrintWithRange()
 pwi.Printing()
