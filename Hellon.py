@@ -1,9 +1,9 @@
-class Hello:
+class Hellon:
     def __init__(self):
         self.n= int(input())
-    def printing(self):
+    def prints(self):
         for i in range(0,self.n):
             print("Hello")
 
-h= Hello()
-h.printing()
+h= Hellon()
+h.prints()
