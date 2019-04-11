@@ -1,7 +1,7 @@
-class checkvalid:
+class checkval:
     def __init__(self):
         self.num=int(input())
-    def checking(self):
+    def checkng(self):
         if(self.num<0):
            print("invalid")
         elif(self.num%2==0):
@@ -9,5 +9,5 @@ class checkvalid:
         else:
                print("Odd")
                
-c1=checkvalid()
-c1.checking()
+c1=checkval()
+c1.checkng()
