@@ -1,4 +1,4 @@
-class Check:
+class find:
     def __init__(self):
         self.i=int(input())
     def show(self):
@@ -10,5 +10,5 @@ class Check:
         else:
             print("Zero")
 
-c = Check()
+c = find()
 c.show()
