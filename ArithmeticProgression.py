@@ -1,4 +1,4 @@
-class ArithProgression:
+class ArithmetProgression:
     def __init__(self):
         self.nadarr=input()
         self.nadarr=[int(i) for i in (self.nadarr).split()]
@@ -14,5 +14,5 @@ class ArithProgression:
             sumn=sumn+ap
         print(sumn)
 
-AP=ArithProgression()
+AP=ArithmetProgression()
 AP.sumAP()            
