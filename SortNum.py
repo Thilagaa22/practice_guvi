@@ -1,4 +1,4 @@
-class SortNum:
+class Sortarr:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
@@ -12,5 +12,5 @@ class SortNum:
             else:
                 print(self.narr[i],end=" ")
 
-p=SortNum()
+p=Sortarr()
 p.PrintSorted()
