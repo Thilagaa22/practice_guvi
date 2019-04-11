@@ -3,7 +3,7 @@ class Hellon:
         self.n= int(input())
     def prints(self):
         for i in range(0,self.n):
-            print("\nHello")
+            print("Hello")
 
 h= Hellon()
 h.prints()
