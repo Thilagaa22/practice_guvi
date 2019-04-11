@@ -1,8 +1,8 @@
-class printprime:
+class printPrime:
     def __init__(self):
         self.nq=input()
         self.nq=[int(i) for i in self.nq.split(" ")]
-    def printing(self):
+    def printi(self):
         lst=[]
         i=self.nq[0]+1
         while i<self.nq[1]:
@@ -19,6 +19,6 @@ class printprime:
             else:
                 print(lst[i],end=" ")
 
-p=printprime()
-p.printing()
+p=printPrime()
+p.printi()
 
