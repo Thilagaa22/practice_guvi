@@ -1,4 +1,4 @@
-class factor:
+class facto:
     def __init__(self):
         self.n=int(input())
     def findfact(self):
@@ -10,5 +10,5 @@ class factor:
                 fact=fact*i
         print(fact)
 
-f=factor()
+f=facto()
 f.findfact()
