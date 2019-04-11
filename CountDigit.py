@@ -1,7 +1,7 @@
-class countdigit:
+class countnodigit:
     def __init__(self):
         self.numchar=input()
-    def count(self):
+    def countdig(self):
         countnum=0
         num=int(self.numchar)
         while(num>0):
@@ -10,5 +10,5 @@ class countdigit:
                 num=int(num/10)
         print(countnum)
 
-cd=countdigit()
-cd.count()
+cd=countnodigit()
+cd.countdig()
