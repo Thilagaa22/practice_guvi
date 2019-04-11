@@ -1,4 +1,4 @@
-class FindRepeated:
+class Findrepeated:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
@@ -24,6 +24,6 @@ class FindRepeated:
                 else:
                     print(lst[i],end=" ")
 
-fr=FindRepeated()
+fr=Findrepeated()
 fr.ToFind()
     
