@@ -1,10 +1,10 @@
-class NumRev:
+class Numrev:
     def __init__(self):
         self.n=input()
-    def Rev(self):
+    def reve(self):
         self.n=self.n[::-1]
         print(int(self.n))
 
-n=NumRev()
-n.Rev()
+n=Numrev()
+n.reve()
             
