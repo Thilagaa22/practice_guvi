@@ -1,7 +1,7 @@
-class palin:
+class palindro:
     def __init__(self):
         self.N=int(input())
-    def palintest(self):
+    def palindrotest(self):
         rev=0
         temp=self.N
         while(temp!=0):
@@ -13,6 +13,6 @@ class palin:
         else:
             print("no")
 
-p=palin()
-p.palintest()
+p=palindro()
+p.palindrotest()
         
