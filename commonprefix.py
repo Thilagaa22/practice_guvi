@@ -1,21 +1,24 @@
-def Longprefix(s1,s2):
-      n1=len(s1)
-      n2=len(s2)
-      result=""
-      i=0
-      j=0
-      while(i<=n1-1 and j<=n2-1):
-            if(s1[i]!=s2[j]):
-                  break
-            result=result+s1[i]
-            i+=1
-            j+=1
-      return result
-            
+N = int(input())
+st = list()
 
-n=int(raw_input())
-l=list()
-for i in range(n):
-      l.append(raw_input())
-l.sort()
-print(Longprefix(l[0],l[n-1]))
+for i in range(N):
+    st.append(input())
+
+def find_commprefix(st1, st2):
+    for i,s in enumerate(st1):
+        if(s != st2[i]):
+            return st1[:i]
+    return st1
+
+if(N > 1):
+    common_prefix = find_common_prefix(st[0], st[1])
+
+    if(N > 2):
+        for i in range(N-1):
+            new_common_prefix = find_common_prefix(st[i], st[i+1])
+            if(len(new_common_prefix) < len(common_prefix)):
+                common_prefix = new_common_prefix
+
+    print(commprefix)
+else:
+print(st[0])
