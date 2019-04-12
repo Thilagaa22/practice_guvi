@@ -10,5 +10,5 @@ for i in zip(*l):
         common_prefix.append(i[0])
     else:
         break
-ans=''.join(common_prefix)
-print(ans)
+answer=''.join(common_prefix)
+print(answer)
