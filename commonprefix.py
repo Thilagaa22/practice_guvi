@@ -1,24 +1,14 @@
-N = int(input())
-st = list()
-
-for i in range(N):
-    st.append(input())
-
-def find_commprefix(st1, st2):
-    for i,s in enumerate(st1):
-        if(s != st2[i]):
-            return st1[:i]
-    return st1
-
-if(N > 1):
-    common_prefix = find_common_prefix(st[0], st[1])
-
-    if(N > 2):
-        for i in range(N-1):
-            new_common_prefix = find_common_prefix(st[i], st[i+1])
-            if(len(new_common_prefix) < len(common_prefix)):
-                common_prefix = new_common_prefix
-
-    print(commprefix)
-else:
-print(st[0])
+m=input()
+m=int(m)
+l=[]
+for i in range(0,m):
+    s=input()
+    l.append(s)
+common_prefix=[]
+for i in zip(*l):
+    if i.count(i[0])==len(i):
+        common_prefix.append(i[0])
+    else:
+        break
+ans=''.join(common_prefix)
+print(ans)
