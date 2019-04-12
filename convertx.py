@@ -23,4 +23,4 @@ else:
         if c in l:
             j+=1
             l.remove(c)
-print(n1-i-k)
+print(n1-i-j)
