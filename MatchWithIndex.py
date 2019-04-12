@@ -1,4 +1,4 @@
-class MatchWithIndex:
+class MatchWithindex:
     def __init__(self):
         self.n=int(input())
         self.narr=input()
@@ -19,5 +19,5 @@ class MatchWithIndex:
                 else:
                     print(lst[i],end=" ")
 
-m=MatchWithIndex()
+m=MatchWithindex()
 m.Matching()
